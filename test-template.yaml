@@ -1,13 +1,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: Template
 metadata:
-  name: create-react-app-template-hjx
-  title: Create React App Template-hjx
+  name: test-template-hjx
+  title: Test-template-hjx
   description: Create a new CRA website project
   tags:
     - experimental
     - react
     - cra
+    - test
 spec:
   owner: web@example.com
   templater: cra
