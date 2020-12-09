@@ -12,7 +12,7 @@ spec:
   owner: rdev_portal
   templater: cookiecutter
   type: documentation
-  path: '.'
+  path: 'https://github.com/Max-blacks/testRepositry/tree/dev_portal'
 
   schema:
     required:
