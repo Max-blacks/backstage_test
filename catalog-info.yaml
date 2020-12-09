@@ -1,18 +1,29 @@
-apiVersion: backstage.io/rdev_portal-v1.0.0
+apiVersion: backstage.io/v1alpha1
 kind: Template
 metadata:
-  name: rdev_portal
-  title: Rdev_portal
-  description: The place to be, for great artists
-  labels:
-    system: public-websites
-  annotations:
-    example.com/service-discovery: artistweb
-    circleci.com/project-slug: github/example-org/artist-website
+  name: portal-template
+  title: Portal Template
+  description: Create a new portal project
   tags:
+    - gridsome
     - vue
-    - Gridsome
+    
 spec:
-  type: website
-  lifecycle: production
-  owner: hjx
+  owner: rdev_portal
+  templater: cookiecutter
+  type: documentation
+  path: '.'
+
+  schema:
+    required:
+      - component_id
+      - description
+    properties:
+      component_id:
+        title: Name
+        type: string
+        description: Unique name of the component
+      description:
+        title: Description
+        type: string
+        description: Help others understand what these docs are about.
