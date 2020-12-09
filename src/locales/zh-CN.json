@@ -1,0 +1,54 @@
+{
+  "technology_stack": "技术栈",
+  "custom_A": "自定义A",
+  "custom_B": "自定义B",
+  "custom_C": "自定义C",
+  "about": "关于",
+  "login": "登录",
+  "author": "作者",
+  "zh-CN": "中文",
+  "en-US": "English",
+  "title_home": "首页",
+  "title_list": "列表",
+
+  "Index": {
+    "template": "开发测试平台",
+    "templateDesc": "开发测试平台是以DevOps、功能计算和服务网格为核心，规范软件开发测试过程，建设开发测试效能分析系统，推动核心技术提升、标准规范落地、协作共享和持续交付。",
+    "specAcomp": "规范和组件",
+    "techManaSpec": "技术管理规范",
+    "specifications": "项目管理规范，需求管理规范，敏捷开发过程规范，测试流程规范",
+    "commonComp": "公用技术组件",
+    "commonCompDesc": "完整开发环境，共享服务/组件前端框架，前后端通信，测试自动化",
+    "techService": "技术服务",
+    "effectAnalysis": "效能分析",
+    "monitorAnalysis": {
+      "title": "监控分析",
+      "child": "应用监控，质量体系管, 时间响应及处理, 监控平台"
+    },
+    "logAnalysis": {
+      "title": "运营反馈",
+      "child": "业务知识管理，项目管理，业务连续性管理，运营服务管理"
+    },
+    "qualityMeasure": {
+      "title": "容量服务",
+      "child": "容量规划能力，容量平台服务，运营成本管理"
+    },
+    "dataAnalysis": {
+      "title": "数据服务",
+      "child": "数据收集能力，数据分析能力，数据告警能力"
+    }
+  },
+
+  "About": {
+    "about": "关于",
+    "introductionTitle": "开发测试平台简介",
+    "introduction": "以容器为代表的云原生技术作为云计算的服务新界面，推动信息技术新的变革，敏捷开发、DevOps、Serverless等研发和全过程交付的新方法和技术体系，极大推动了信息系统质量的提升和生产力的提高。开发测试平台推动标准规范落地、协作共享和持续交付，提供一套技术统一、架构柔性、性能高效、安全可靠的基础框架和公共工具集，支撑需求设计、开发、测试、发布、运行的全过程。自定义资源类型，生态工具齐全，便于封装，技术栈、阶段性制成品、中间件等，传输、存储便利，成为DevOps、高效开发测试。",
+    "developer": "开发者平台",
+    "frontEnd": "前端：",
+    "backend": "后端：",
+    "framework": "框架：",
+    "protocol": "通信协议：",
+    "deployment": "部署："
+  }
+
+}

@@ -1,0 +1,52 @@
+{
+  "technology_stack": "Technology stack",
+  "custom_B": "Custom B",
+  "custom_C": "Custom C",
+  "about": "About",
+  "login": "login",
+  "author": "Author",
+  "zh-CN": "中文",
+  "en-US": "English",
+  "title_home": "home",
+  "title_list": "list",
+
+  "Index": {
+    "template": "Development Test Platform",
+    "templateDesc": "The development and testing platform is based on DevOps, functional computing and service grids, standardizes the software development and testing process, builds a development and testing efficiency analysis system, and promotes the improvement of core technologies, the implementation of standards and specifications, collaborative sharing and continuous delivery.",
+    "specAcomp": "Specification & Component",
+    "techManaSpec": "Technical Management Specifications",
+    "specifications": "Project management specifications, requirements management specifications, agile development process specifications, test process specifications",
+    "commonComp": "General technical components",
+    "commonCompDesc": "Complete development environment, shared services/components front-end framework, front-end and back-end communication, test automation",
+    "techService": "Technical Services",
+    "effectAnalysis": "Efficiency analysis",
+    "monitorAnalysis": {
+      "title": "Monitoring analysis",
+      "child": "Application monitoring, quality system management, time response and processing, monitoring platform"
+    },
+    "logAnalysis": {
+      "title": "Log analysis",
+      "child": "Business knowledge management, project management, business continuity management, operation service management"
+    },
+    "qualityMeasure": {
+      "title": "Quality measure",
+      "child": "Capacity planning capability, capacity platform service, operation cost management"
+    },
+    "dataAnalysis": {
+      "title": "Data analysis",
+      "child": "Data collection ability, data analysis ability, data alarm ability"
+    }
+  },
+
+  "About": {
+    "about": "About",
+    "introductionTitle": "Introduction to Development Test Platform",
+    "introduction": "As a new service interface for cloud computing, cloud native technology represented by containers has promoted new changes in information technology. New methods and technical systems such as agile development, DevOps, and Serverless R&D and full-process delivery have greatly promoted the quality of information systems. Upgrade and productivity increase. The development and testing platform promotes the implementation of standards and specifications, collaborative sharing and continuous delivery, and provides a set of basic frameworks and public toolsets with unified technology, flexible architecture, efficient performance, safe and reliable, and supports the entire process of requirements design, development, testing, release and operation . Custom resource types, complete ecological tools, easy packaging, technology stacks, phased products, middleware, etc., convenient transmission and storage, and become DevOps, efficient development and testing.",
+    "developer": "Developer Platform",
+    "frontEnd": "Front end: ",
+    "backend": "Back end: ",
+    "framework": "Framework: ",
+    "protocol": "Protocol: ",
+    "deployment": "Deployment: "
+  }
+}

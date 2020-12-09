@@ -1,0 +1,21 @@
+{
+  "name": "rdev_portal",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "@gridsome/remark-prismjs": "^0.4.0",
+    "@gridsome/source-filesystem": "^0.6.2",
+    "@gridsome/transformer-remark": "^0.6.3",
+    "ant-design-vue": "^1.7.1",
+    "axios": "^0.21.0",
+    "gridsome": "^0.7.0",
+    "gridsome-plugin-i18n": "^1.6.0",
+    "less": "^3.12.2",
+    "less-loader": "^7.0.2",
+    "showdown": "^1.9.1"
+  }
+}
