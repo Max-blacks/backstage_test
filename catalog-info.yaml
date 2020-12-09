@@ -1,7 +1,8 @@
-apiVersion: backstage.io/v1alpha1
+apiVersion: backstage.io/v1.0.0
 kind: Component
 metadata:
-  name: signdemo
+  name: Backstage Template
+  title: Backstage Template
   description: An example of a Backstage application.
   # Example for optional annotations
   # annotations:
@@ -9,5 +10,5 @@ metadata:
     # backstage.io/techdocs-ref: github:https://github.com/backstage/backstage.git
 spec:
   type: website
-  owner: john@example.com
+  owner: hjx@example.com
   lifecycle: experimental
