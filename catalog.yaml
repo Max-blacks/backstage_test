@@ -1,0 +1,28 @@
+apiVersion: backstage.io/v1.0.0
+kind: Template
+metadata:
+  name: backstage-template
+  title: Backstage Template
+  description: Create a new standalone documentation project
+  tags:
+    - React
+    - Typescript
+spec:
+  owner: hjx/wq
+  templater: cookiecutter
+  type: website
+  path: '.'
+
+  schema:
+    required:
+      - component_id
+      - description
+    properties:
+      component_id:
+        title: Name
+        type: string
+        description: Unique name of the component
+      description:
+        title: Description
+        type: string
+        description: Help others understand what these docs are about.
